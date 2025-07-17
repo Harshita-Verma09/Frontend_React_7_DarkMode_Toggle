@@ -22,7 +22,7 @@ const Toggle = () => {
       <div className="flex justify-center items-center m-2 rounded-md">
         <button
           className="bg-blue-400 p-2 text-2xl text-white rounded-md"
-          onClick={handleChange} // ✅ Correct way to call function
+          onClick={handleChange} //  Correct way to call function
         >
           Toggle Dark Mode
         </button>
